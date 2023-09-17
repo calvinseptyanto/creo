@@ -97,7 +97,9 @@ const CodePage = () => {
                   </FormItem>
                 )}
               />
-              <Button className="col-span-12 lg:col-span-2">Generate</Button>
+              <Button className="col-span-12 lg:col-span-2 bg-green-700 hover:bg-green-700/40">
+                Generate
+              </Button>
             </form>
           </Form>
         </div>

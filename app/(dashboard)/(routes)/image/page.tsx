@@ -153,7 +153,9 @@ const ImagePage = () => {
                   </FormItem>
                 )}
               />
-              <Button className="col-span-12 lg:col-span-2">Generate</Button>
+              <Button className="col-span-12 lg:col-span-2 bg-pink-700 hover:bg-pink-700/40">
+                Generate
+              </Button>
             </form>
           </Form>
         </div>

@@ -85,7 +85,9 @@ const MusicPage = () => {
                   </FormItem>
                 )}
               />
-              <Button className="col-span-12 lg:col-span-2">Generate</Button>
+              <Button className="col-span-12 lg:col-span-2 bg-emerald-500 hover:bg-emerald-500/40">
+                Generate
+              </Button>
             </form>
           </Form>
         </div>

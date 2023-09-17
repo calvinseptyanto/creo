@@ -85,7 +85,9 @@ const VideoPage = () => {
                   </FormItem>
                 )}
               />
-              <Button className="col-span-12 lg:col-span-2">Generate</Button>
+              <Button className="col-span-12 lg:col-span-2 bg-orange-700 hover:bg-orange-700/40">
+                Generate
+              </Button>
             </form>
           </Form>
         </div>
