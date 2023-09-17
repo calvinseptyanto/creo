@@ -20,9 +20,11 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import axios from "axios";
 import { cn } from "@/lib/utils";
+import { useProModal } from "@/hooks/use-pro-modal";
 
 const CodePage = () => {
   const router = useRouter();
+  const proModal = useProModal();
   const [messages, setMessages] = useState<
     OpenAI.Chat.CreateChatCompletionRequestMessage[]
   >([]);
@@ -50,7 +52,9 @@ const CodePage = () => {
       form.reset();
     } catch (error: any) {
       console.log(error);
-      // TODO: Open Pro Modal
+      if (error?.response?.status === 403) {
+        proModal.onOpen();
+      }
     } finally {
       router.refresh();
     }
