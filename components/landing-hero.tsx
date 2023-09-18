@@ -10,7 +10,8 @@ export const LandingHero = () => {
   return (
     <div className="text-white font-bold py-36 text-center space-y-5">
       <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl space-y-5 font-extrabold">
-        <h1>The Best AI Tools for</h1>
+        <h1>Unleash the Power</h1>
+        <h1>of AI For</h1>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-sky-300  to-cyan-200">
           <TypewriterComponent
             options={{
@@ -28,7 +29,8 @@ export const LandingHero = () => {
         </div>
       </div>
       <div className="text-sm md:text-xl font-light text-zinc-400">
-        Create content using AI 10x faster.
+        Boost your creativity with our AI-assisted precision model. Work 10x
+        faster and better.
       </div>
       <div>
         <Link href={isSignedIn ? "/dashboard" : "/sign-up"}>
@@ -41,7 +43,7 @@ export const LandingHero = () => {
         </Link>
       </div>
       <div className="text-zinc-400 text-xs md:text-sm font-normal">
-        No credit card required.
+        Begin your journey with us. No credit card. No hassles.
       </div>
     </div>
   );

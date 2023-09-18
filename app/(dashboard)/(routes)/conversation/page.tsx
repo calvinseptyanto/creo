@@ -66,7 +66,7 @@ const ConversationPage = () => {
     <div>
       <Heading
         title="Conversation"
-        description="Our most advanced conversation model."
+        description="Experience dialogue with our most sophisticated AI model."
         icon={MessageSquare}
         iconColor="text-violet-500"
         bgColor="bg-violet-500/10"
@@ -125,9 +125,7 @@ const ConversationPage = () => {
                 key={message.content}
                 className={cn(
                   "p-8 w-full flex items-center gap-x-8 rounded-lg",
-                  message.role === "user"
-                    ? "bg-white border-black/10"
-                    : "bg-muted"
+                  message.role === "user" ? "border-black/10" : "bg-muted"
                 )}
               >
                 {message.role === "user" ? <UserAvatar /> : <BotAvatar />}
