@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+    Last updated on: 18th September 2023
 
-## Getting Started
+<div align=center>
+    <a href="https://creo-beta.vercel.app/">
+        <img width="400" src="https://github.com/calvinseptyanto/creo/assets/98633109/66ec8522-10bf-4374-be5a-8cff753c33d2" alt="Creo">
+    </a>
 
-First, run the development server:
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# [Creo: Crafted by AI, Inspired by You.](https://creo-beta.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![line]
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Table of Contents
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Introduction](#introduction)
+- [Tech Stack Used](#tech-stack-used)
+- [Features](#features)
+- [License](#license)
 
-## Learn More
+![line]
 
-To learn more about Next.js, take a look at the following resources:
+## Introduction
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![line]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Tech Stack Used
 
-## Deploy on Vercel
+- Next.js: Framework
+- TailwindCSS & Shadcn UI: Styling
+- MySQL: Database
+- Prisma: ORM
+- OpenAI API (GPT-4): Conversation, Code Generation, and Image Generation
+- Replicate API: Music Generation & Audio Generation
+- Clerk: Authentication
+- Crisp: Customer Support Functionalities
+- Stripe API: Checkout Payment & Subscription Renewal
+- Github: Version Control
+- Vercel: Hosting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=blue) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Open AI](https://img.shields.io/badge/chatGPT-74aa9c?logo=openai&logoColor=white) ![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![line]
+
+## Features
+- Landing Page
+- Authentication
+- Dashboard
+- Conversation
+- Image Generation
+- Video Generation
+- Music Generation
+- Code Generation
+- Pro Features Dialog Box
+- Stripe Checkout
+- Chat Support
+
+![line]
+
+## License
+
+- See [LICENSE]
+
+**Calvin Septyanto**
+
+[line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
+[License]: https://github.com/calvinseptyanto/promptopia/blob/main/LICENSE
+[badges]: https://github.com/Ileriayo/markdown-badges
+
