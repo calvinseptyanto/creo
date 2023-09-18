@@ -55,6 +55,8 @@
 - Clerk: Authentication
 - Crisp: Customer Support Functionalities
 - Stripe API: Checkout Payment & Subscription Renewal
+- Zustand: State Management
+- Toast: Error Notifications
 - Github: Version Control
 - Vercel: Hosting
 
