@@ -1,3 +1,5 @@
+"use client";
+import { Avatar, AvatarFallback } from "@radix-ui/react-avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const testimonials = [
@@ -44,11 +46,14 @@ export const LandingContent = () => {
             className="bg-[#192339] border-none text-white"
           >
             <CardHeader>
-              <CardTitle className="flex items-center gap-x-2">
+              <CardTitle className="flex items-center justify-between gap-x-2">
                 <div>
                   <p className="text-lg">{item.name}</p>
                   <p className="text-zinc-400 text-sm">{item.title}</p>
                 </div>
+                <Avatar className="bg-[#111827] rounded-full p-4">
+                  <AvatarFallback>{item.avatar}</AvatarFallback>
+                </Avatar>
               </CardTitle>
               <CardContent className="pt-4 px-0">
                 {item.description}
