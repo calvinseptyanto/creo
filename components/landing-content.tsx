@@ -51,7 +51,7 @@ export const LandingContent = () => {
                   <p className="text-lg">{item.name}</p>
                   <p className="text-zinc-400 text-sm">{item.title}</p>
                 </div>
-                <Avatar className="bg-[#111827] rounded-full p-[3.5]">
+                <Avatar className="bg-[#111827] rounded-full p-4">
                   <AvatarFallback>{item.avatar}</AvatarFallback>
                 </Avatar>
               </CardTitle>
